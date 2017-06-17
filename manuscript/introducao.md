@@ -1,0 +1,7 @@
+# Introdução #
+
+Uma estrutura de um banco de dados, diferentemente da estrutura de um software, tende a deteriorar naturalmente com o passar do tempo. Dentre várias causas de deterioracão podemos citar o crescimento progressivo do volume de dados devido ao aumento natural de usuários que o utilizam e também ao seu próprio tempo de uso, tornando um modelo de dados que no início era eficiente para solucão proposta em um modelo ineficiente e defasado.
+
+Essa deterioração natural aliada a mudanças em requisitos de negócio exigem modificações e refatorações tanto no software que os implementa quanto em seus bancos de dados. Entretanto a refatoração de um banco de dados é mais complexa que a de um software devido aos seguintes motivos: (i) além de manter comportamento também é necessário manter as informações (dados) e (ii) acoplamento com diversas origens (outras aplicações, *frameworks*, integrações, etc) ([Ambler](http://databaserefactoring.com/)).
+
+Devido a essas dificuldades a evolução de uma estrutura de banco de dados torna-se um desafio, ocorrendo assim um fenômeno conhecido como *Bad Smells* (mal cheiros), da mesma forma que ocorre com o código de um software. Em software um *code smell* (*bad smell*) é uma categoria comum de problema no código fonte que indica a necessidade de refatoração ([Fowler](https://martinfowler.com/books/refactoring.html)), e o mesmo ocorre com bancos de dados, onde são chamados *database smells* ([Ambler](http://databaserefactoring.com/)).
